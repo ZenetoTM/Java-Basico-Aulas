@@ -132,7 +132,12 @@ public class OperadoresJava {
         else {
             System.out.println("tá errrado corno"); }
         if (condicao1 || condicao2){
+<<<<<<< HEAD
             System.out.println("Uma das condições é verdadeira");
         } */
+=======
+            System.out.println("Uma das condições é verdadeira"); */
+        }
+>>>>>>> fdbf5f62026a917e6900dd7ef47eb47bd3e8d432
     }
 }
