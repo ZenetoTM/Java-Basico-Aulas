@@ -9,7 +9,7 @@ public class ContaTerminal {
     logar nela
     Numero da conta 067-8
     agencia 1021
-    Nome da conta Mario Andrade
+    Nome da conta José Santos
      */
 
 
@@ -31,15 +31,11 @@ public class ContaTerminal {
 
         String usuarioConta = "067-8";
         int bagencia = 1021;
-        String usuario = "Mario Andrade";
+        String usuario = "José Santos";
         double saldo = 237.48;
 
-        if (bagencia == agencia) {
-            if (usuarioConta == conta) {
-                if (usuario == nomeConta) {
-                }
+        if (bagencia == agencia && usuarioConta == conta && usuario == nomeConta) {
 
-            }
             System.out.println("olá " + nomeConta + ", obrigada por usar o nosso banco, sua agência é " + agencia + ", conta " + conta + " e seu saldo é " + saldo + " já está disponível para saque");
         } else {
             System.out.println("Falha ao encontrar a conta");
