@@ -27,20 +27,20 @@ public class ContaTerminal {
         // foi criado um novo scanner porque o scanner estava pulando a linha sobre a pergunta do nome
 
         System.out.println("Por favor, digite o nome da conta!");
-        String nomeconta = input.nextLine();
+        String nomeConta = input.nextLine();
 
-        String usuarioconta = "067-8";
+        String usuarioConta = "067-8";
         int bagencia = 1021;
         String usuario = "Mario Andrade";
         double saldo = 237.48;
 
         if (bagencia == agencia) {
-            if (usuarioconta == conta) {
-                if (usuario == nomeconta) {
+            if (usuarioConta == conta) {
+                if (usuario == nomeConta) {
                 }
 
             }
-            System.out.println("olá " + nomeconta + ", obrigada por usar o nosso banco, sua agência é " + agencia + ", conta " + conta + " e seu saldo é " + saldo + " já está disponível para saque");
+            System.out.println("olá " + nomeConta + ", obrigada por usar o nosso banco, sua agência é " + agencia + ", conta " + conta + " e seu saldo é " + saldo + " já está disponível para saque");
         } else {
             System.out.println("Falha ao encontrar a conta");
         }

@@ -1,26 +1,15 @@
 package edu.zeneto.primeiros.projetos;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> e8c6760cfe3d68fb609315e26736b8ba263994ac
 import java.util.Locale;
 import java.util.Scanner;
 public class AbaoutMe {
     public static void main(String[] args) {
         // os argumentos começam com indice (
        /* String  nome = args [0];
-=======
-public class AbaoutMe {
-    public static void main(String[] args) {
-        // os argumentos começam com indice (
-        String  nome = args [0];
->>>>>>> 7acb2da7ae5d738013a87188a97719cd4c167fe2
         String sobrenome = args [1];
         int idade = Integer.valueOf(args[2]); // Vamos falar sobre Wrappers
         double altura = Double.valueOf(args[3]);
 
-<<<<<<< HEAD
          System.out.println("Olá me chamo " + nome + " " + sobrenome);
          System.out.println("Tenho " + idade + " anos ");
          System.out.println("Minha altura é " + altura + "cm ");*/
@@ -46,8 +35,6 @@ public class AbaoutMe {
         System.out.println("Meu nome é " + nome + " " + sobrenome);
         System.out.println("Minha idade é " + idade + " anos");
         System.out.println("Minha altura é " + altura + " cm");
-<<<<<<< HEAD
-=======
 
 
 
