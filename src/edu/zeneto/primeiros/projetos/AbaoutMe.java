@@ -1,5 +1,9 @@
 package edu.zeneto.primeiros.projetos;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e8c6760cfe3d68fb609315e26736b8ba263994ac
 import java.util.Locale;
 import java.util.Scanner;
 public class AbaoutMe {
@@ -42,5 +46,20 @@ public class AbaoutMe {
         System.out.println("Meu nome é " + nome + " " + sobrenome);
         System.out.println("Minha idade é " + idade + " anos");
         System.out.println("Minha altura é " + altura + " cm");
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+=======
+        System.out.println("Olá me chamo " + nome + " " + sobrenome);
+        System.out.println("Tenho " + idade + " anos ");
+        System.out.println("Minha altura é " + altura + "cm ");
+>>>>>>> 7acb2da7ae5d738013a87188a97719cd4c167fe2
+>>>>>>> e8c6760cfe3d68fb609315e26736b8ba263994ac
     }
 }
