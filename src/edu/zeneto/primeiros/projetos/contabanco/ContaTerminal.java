@@ -13,7 +13,6 @@ public class ContaTerminal {
      */
 
 
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
         Scanner input = new Scanner(System.in).useLocale(Locale.US);
@@ -40,6 +39,7 @@ public class ContaTerminal {
         } else {
             System.out.println("Falha ao encontrar a conta");
         }
-        ;
+        scanner.close();
+        input.close();
     }
 }
