@@ -33,7 +33,7 @@ public class ContaTerminal {
         String usuario = "José Santos";
         double saldo = 237.48;
 
-        if (bagencia == agencia && usuarioConta == conta && usuario == nomeConta) {
+        if (usuarioConta.equals(conta) && usuario.equals(nomeConta) && bagencia == agencia) {
 
             System.out.println("olá " + nomeConta + ", obrigada por usar o nosso banco, sua agência é " + agencia + ", conta " + conta + " e seu saldo é " + saldo + " já está disponível para saque");
         } else {
